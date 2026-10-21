@@ -1,56 +1,74 @@
 <h1 align="center">Edin Haskić</h1>
 
 <p align="center">
-  <strong>IT Infrastructure · Systems Administration · Monitoring · Automation</strong>
+  <strong>IT Infrastructure · Systems & Network Administration · Monitoring & Automation</strong>
 </p>
 
 <p align="center">
-  Practical work on mail-system monitoring, deployment workflows, troubleshooting, and maintainable IT tools.
+  Linux and Windows services, network infrastructure, virtualization, storage, security, and self-hosted platforms.
 </p>
 
-## Professional focus
+## Profile
 
-I focus on the reliability and maintainability of IT systems: understanding how services are configured, investigating failures, making setup repeatable, and verifying changes before treating them as complete. My work brings together infrastructure-oriented thinking, application development, PowerShell automation, and AI-assisted engineering with a strong emphasis on reviewing and testing the result.
+I work across systems administration and network infrastructure, with a practical focus on keeping services reliable, networks properly configured, and systems maintainable. My hands-on work includes Linux server operations, network routing and firewall configuration, virtualization and storage, mail infrastructure, monitoring, identity and access services, backup workflows, and operational tooling.
 
-I'm building my portfolio around practical work relevant to **IT Infrastructure, Systems Administration, Technical Operations, and Infrastructure Automation**.
+I approach infrastructure with an operations mindset: understand the failure, verify the root cause, test changes before rollout, protect credentials and data, and document repeatable procedures.
 
-## Featured project
+## Core Technologies
+
+| Area | Technologies and platforms |
+|---|---|
+| **Operating systems & services** | Debian, Rocky Linux, Windows, SSH, systemd, Nginx, TLS and certificate management |
+| **Networking** | TCP/IP, routing, DNS, VLANs, NAT, firewall policies, WireGuard/VPN; MikroTik, FortiGate, D-Link managed switches, UniFi |
+| **Virtualization & containers** | Proxmox VE, Proxmox Backup Server, Hyper-V, VMware Workstation, Docker Compose, K3s |
+| **Storage & recovery** | TrueNAS, ZFS, NFS, iSCSI, replication, snapshots, backup and restore workflows |
+| **Mail infrastructure** | Modoboa, Postfix, Dovecot, Rspamd, Redis, Roundcube, SPF, DKIM, DMARC, Certbot |
+| **Monitoring & security** | Zabbix, Wazuh, Fail2ban, Rspamd, service and mail-queue troubleshooting |
+| **Identity & self-hosted services** | Nextcloud AIO, Authentik, Vaultwarden, Mattermost, Wiki.js, NetBox, Smallstep Step CA |
+| **Scripting & engineering tools** | PowerShell, Bash, Python, SQL, Git/GitHub, pytest |
+
+## Selected Infrastructure Work
 
 ### MailGuard / Modoboa Monitor
 
-An application in active development focused on monitoring Modoboa-based mail environments.
+**Multi-server mail monitoring and operational tooling** · *In development*
 
-**Project work has included:**
+A monitoring application for Modoboa-based mail environments. Development work includes a Python/FastAPI backend, PostgreSQL, a SvelteKit/Svelte frontend, PowerShell installation and update workflows, automated tests, configuration validation, and release-safety checks. The application is developed and tested locally before any production-side changes are considered.
 
-- Developing and improving the application through multiple structured release phases.
-- Building and troubleshooting PowerShell installation and update workflows.
-- Investigating frontend, build, and application issues across the project.
-- Reviewing backend logic, tests, security concerns, and release-safety checks.
-- Comparing versions to identify regressions, reliability gaps, and improvement opportunities.
-- Verifying changes locally and documenting repeatable development and maintenance steps.
+### Modoboa Mail Platform
 
-**Status:** In development. Project-specific documentation will describe verified features, installation, configuration, test results, and known limitations.
+**Mail services, delivery controls, and troubleshooting**
 
-## Technical areas
+Configured and troubleshot a Debian-based mail stack involving Modoboa, Postfix, Dovecot, Rspamd, Redis, Nginx, and Roundcube. Work has covered TLS certificates, SPF/DKIM/DMARC, service availability, IMAP authentication, mail queues, filtering history, logs, and Fail2ban.
 
-- **Systems and operations:** service troubleshooting, configuration, repeatable setup, and maintenance workflows.
-- **Automation:** PowerShell scripts for installation, updates, and development tasks.
-- **Monitoring:** mail-service monitoring and observability; evaluating tools such as Prometheus and Netdata.
-- **Application engineering:** SvelteKit, build troubleshooting, frontend/backend investigation, and test review.
-- **Engineering workflow:** Git, GitHub, phased changes, version comparison, and technical documentation.
+### Virtualization, Storage & Backup
 
-## How I approach technical work
+**Virtual machines, storage services, and recovery workflows**
 
-- Break large changes into clear phases and keep a traceable history.
-- Investigate root causes rather than just working around visible symptoms.
-- Review and verify changes before considering a task complete.
-- Treat security, release safety, and maintainability as part of the work, not as last-minute extras.
-- Document how to configure, run, and validate a project so the work can be repeated by someone else.
+Hands-on work with Proxmox VE, Proxmox Backup Server, Hyper-V, TrueNAS, ZFS, NFS, and iSCSI. Tasks have included storage expansion, virtual-disk conversion, replication, shared storage, and backup-related configuration and troubleshooting.
 
-## Portfolio
+### Self-Hosted Services & Identity
 
-This profile highlights practical engineering work rather than a checklist of technologies. Each project should make clear what problem it addresses, what has actually been implemented, how it can be installed and verified, and what remains to be done.
+**Secure access to internal services**
 
----
+Deployed and configured services including Nextcloud AIO with TrueNAS-backed NFS storage, Authentik, Vaultwarden, Mattermost, Wiki.js, NetBox, and Smallstep Step CA, with Nginx reverse proxy and TLS-related configuration.
 
-<p align="center"><i>Building, troubleshooting, automating, and improving practical IT systems.</i></p>
+### Network Operations & Monitoring
+
+Worked on MikroTik routing, VLAN trunking, NAT, DNS forwarding, WireGuard routing, FortiGate firewall policies, managed switching, and UniFi wireless access. Monitoring and security work includes Zabbix and Wazuh installation/upgrades, Fail2ban, and service-level troubleshooting.
+
+## Automation & Application Tooling
+
+Alongside infrastructure work, I build tools that support administration and business workflows. Projects have used Python, FastAPI, Flask, PostgreSQL, MariaDB, SQLite, SvelteKit/Svelte, PySide6, and PowerShell. Examples include the HR Portal, a legal-office desktop application, PDF-to-Excel processing, and administrative utilities.
+
+## Current Focus
+
+- Reliable monitoring and operational visibility for self-hosted services
+- Repeatable installation, configuration, upgrade, and validation workflows
+- Network troubleshooting, access control, and service security
+- Backup, storage, and recovery practices
+- Clear technical documentation and reproducible project setup
+
+## Portfolio Notes
+
+Some work involves internal or private environments. Public repositories and case studies will contain only material that can be shared safely, with credentials, private network details, logs, and business data removed. Project documentation will distinguish implemented and tested features from work in progress.
