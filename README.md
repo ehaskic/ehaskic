@@ -5,46 +5,55 @@
 </p>
 
 <p align="center">
-  Learning by building, testing, and documenting practical IT projects.
+  Building practical IT projects and documenting how they are developed, configured, tested, and maintained.
 </p>
 
 ## About me
 
-I'm working toward an **Infrastructure Engineer / Systems Administrator** role. My focus is on understanding how systems are configured, monitored, troubleshot, and maintained, then applying that knowledge in practical projects.
+I'm working toward an **IT Infrastructure Engineer / Systems Administrator** role. My main interests are system administration, mail infrastructure, monitoring and observability, networking, and automation.
 
-I use AI-assisted development as a productivity tool, but treat generated code as something to review and test, not something to trust blindly. I aim to understand the changes, validate them locally, and document the result.
+I learn by working on practical projects, investigating failures, comparing implementations, and improving repeatable setup and maintenance workflows. I use AI-assisted development as a tool, while treating its output as something that must be reviewed and verified.
 
-## Main project
+## Featured project
 
 ### MailGuard / Modoboa Monitor
 
-A work-in-progress monitoring and administration tool for Modoboa-based mail environments.
+An application in active development focused on monitoring Modoboa-based mail environments.
 
-My work on the project has included iterating through development phases, investigating implementation issues, improving installation and update workflows, reviewing security and reliability, and testing changes locally.
+Work on the project has included:
 
-**Status:** In development. Project details, setup instructions, tested functionality, and known limitations will be documented in the project repository as it is prepared for publication.
+- Developing and reviewing the application through multiple iterations and structured update phases.
+- Comparing earlier and newer implementations to identify bugs, reliability concerns, and security improvements.
+- Working on PowerShell-based installation and update scripts, then investigating setup and release-workflow issues.
+- Reviewing frontend and backend code, tests, and release-safety checks.
+- Running the application locally and checking changes before treating them as complete.
 
-## Current learning and practice
+**Status:** In development. The project is being prepared for clear public documentation. Production deployment and features that have not been verified are not claimed here.
 
-- **Systems:** Linux and Windows administration fundamentals
-- **Networking:** TCP/IP, DNS, and network troubleshooting
-- **Monitoring:** service health, operational visibility, and alerting concepts
-- **Automation:** PowerShell and Python scripting
-- **Engineering workflow:** Git, GitHub, documentation, structured changes, and testing
+> The project repository will contain the detailed feature list, installation and configuration instructions, test results, known limitations, and security notes.
 
+## Practical work and current focus
 
-## How I approach projects
+- **Automation:** PowerShell scripts for installation, updates, and repeatable development tasks.
+- **Application maintenance:** phased changes, troubleshooting, code review, and version comparisons.
+- **Testing and reliability:** local verification, test review, release-safety checks, and documenting known issues.
+- **Infrastructure:** learning system administration, networking fundamentals, mail services, monitoring, and observability.
+- **Engineering workflow:** Git and GitHub for version control, project history, and documentation.
 
-- Break complex work into manageable phases.
-- Investigate errors rather than simply hiding symptoms.
-- Test changes locally before considering them complete.
-- Use automation to make repeatable tasks easier to run and maintain.
-- Document installation, configuration, verification steps, and known limitations.
+I'm also learning about monitoring tools such as **Prometheus** and **Netdata**. They are part of my learning and evaluation, not a claim that I have deployed them in production.
+
+## How I work
+
+- Break larger tasks into manageable phases.
+- Investigate the cause of an issue instead of merely hiding its symptoms.
+- Review changes and test them locally before calling them complete.
+- Automate repeatable work where it improves consistency and maintainability.
+- Document setup, configuration, verification steps, limitations, and follow-up work.
 
 ## Portfolio
 
-I’m preparing projects for publication with clear READMEs, setup instructions, project status, and evidence of testing. The aim is to show how each project works, what problem it addresses, and what I learned building it.
+My portfolio is being organized around practical projects rather than a list of technologies. Each published repository should explain what problem it addresses, what has actually been implemented, how to install and verify it, and what remains unfinished.
 
 ---
 
-<p align="center"><i>Building practical skills in infrastructure, monitoring, and automation, one documented project at a time.</i></p>
+<p align="center"><i>Learning infrastructure by building, troubleshooting, testing, and documenting real projects.</i></p>
