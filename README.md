@@ -1,45 +1,50 @@
 <h1 align="center">Hi, I'm Edin Haskić 👋</h1>
 
 <p align="center">
-  <strong>IT Infrastructure · Systems Administration · Networking · Automation</strong>
+  <strong>IT Infrastructure · Systems Administration · Monitoring · Automation</strong>
 </p>
 
 <p align="center">
-  Building practical projects focused on reliable systems, monitoring, security, and automation.
+  Learning by building, testing, and documenting practical IT projects.
 </p>
 
 ## About me
 
-I'm developing my skills in IT infrastructure and systems administration, with a strong interest in networking, monitoring, security, and automation.
+I'm working toward an **Infrastructure Engineer / Systems Administrator** role. My focus is on understanding how systems are configured, monitored, troubleshot, and maintained, then applying that knowledge in practical projects.
 
-- **Current project:** MailGuard / Modoboa Monitor, a monitoring and administration tool for Modoboa-based mail environments.
-- **Technical focus:** Linux and Windows administration, TCP/IP, DNS, network troubleshooting, scripting, and infrastructure monitoring.
-- **Tools and development:** PowerShell, Python, Git, GitHub, and web technologies when a project needs them.
-- **How I work:** I build, document, and test practical solutions. I use AI-assisted development as a tool, while focusing on understanding the code and validating the results.
-- **Career goal:** Grow into an Infrastructure Engineer / Systems Administrator role.
+I use AI-assisted development as a productivity tool, but treat generated code as something to review and test, not something to trust blindly. I aim to understand the changes, validate them locally, and document the result.
 
-## Current focus
-
-- Improving monitoring and operational visibility for mail infrastructure.
-- Practising scripting and automation for repeatable administration tasks.
-- Building a well-documented portfolio of practical IT projects.
-- Strengthening networking fundamentals and troubleshooting skills.
-
-## Featured project
+## Main project
 
 ### MailGuard / Modoboa Monitor
 
-A project in active development focused on monitoring and administration for Modoboa-based mail infrastructure. The goal is to make operational status easier to understand and routine checks easier to manage.
+A work-in-progress monitoring and administration tool for Modoboa-based mail environments.
 
-**Status:** In development.
+My work on the project has included iterating through development phases, investigating implementation issues, improving installation and update workflows, reviewing security and reliability, and testing changes locally.
 
-## Principles
+**Status:** In development. Project details, setup instructions, tested functionality, and known limitations will be documented in the project repository as it is prepared for publication.
 
-- Security and sensible defaults first.
-- Clear documentation and repeatable setup steps.
-- Useful monitoring, actionable errors, and maintainable code.
-- Test changes before treating them as finished.
+## Current learning and practice
+
+- **Systems:** Linux and Windows administration fundamentals
+- **Networking:** TCP/IP, DNS, and network troubleshooting
+- **Monitoring:** service health, operational visibility, and alerting concepts
+- **Automation:** PowerShell and Python scripting
+- **Engineering workflow:** Git, GitHub, documentation, structured changes, and testing
+
+
+## How I approach projects
+
+- Break complex work into manageable phases.
+- Investigate errors rather than simply hiding symptoms.
+- Test changes locally before considering them complete.
+- Use automation to make repeatable tasks easier to run and maintain.
+- Document installation, configuration, verification steps, and known limitations.
+
+## Portfolio
+
+I’m preparing projects for publication with clear READMEs, setup instructions, project status, and evidence of testing. The aim is to show how each project works, what problem it addresses, and what I learned building it.
 
 ---
 
-📌 **More projects will be added as they are documented and prepared for publication.**
+<p align="center"><i>Building practical skills in infrastructure, monitoring, and automation, one documented project at a time.</i></p>
