@@ -1,18 +1,18 @@
-<h1 align="center">Hi, I'm Edin Haskić 👋</h1>
+<h1 align="center">Edin Haskić</h1>
 
 <p align="center">
   <strong>IT Infrastructure · Systems Administration · Monitoring · Automation</strong>
 </p>
 
 <p align="center">
-  Building practical IT projects and documenting how they are developed, configured, tested, and maintained.
+  Practical work on mail-system monitoring, deployment workflows, troubleshooting, and maintainable IT tools.
 </p>
 
-## About me
+## Professional focus
 
-I'm working toward an **IT Infrastructure Engineer / Systems Administrator** role. My main interests are system administration, mail infrastructure, monitoring and observability, networking, and automation.
+I focus on the reliability and maintainability of IT systems: understanding how services are configured, investigating failures, making setup repeatable, and verifying changes before treating them as complete. My work brings together infrastructure-oriented thinking, application development, PowerShell automation, and AI-assisted engineering with a strong emphasis on reviewing and testing the result.
 
-I learn by working on practical projects, investigating failures, comparing implementations, and improving repeatable setup and maintenance workflows. I use AI-assisted development as a tool, while treating its output as something that must be reviewed and verified.
+I'm building my portfolio around practical work relevant to **IT Infrastructure, Systems Administration, Technical Operations, and Infrastructure Automation**.
 
 ## Featured project
 
@@ -20,40 +20,37 @@ I learn by working on practical projects, investigating failures, comparing impl
 
 An application in active development focused on monitoring Modoboa-based mail environments.
 
-Work on the project has included:
+**Project work has included:**
 
-- Developing and reviewing the application through multiple iterations and structured update phases.
-- Comparing earlier and newer implementations to identify bugs, reliability concerns, and security improvements.
-- Working on PowerShell-based installation and update scripts, then investigating setup and release-workflow issues.
-- Reviewing frontend and backend code, tests, and release-safety checks.
-- Running the application locally and checking changes before treating them as complete.
+- Developing and improving the application through multiple structured release phases.
+- Building and troubleshooting PowerShell installation and update workflows.
+- Investigating frontend, build, and application issues across the project.
+- Reviewing backend logic, tests, security concerns, and release-safety checks.
+- Comparing versions to identify regressions, reliability gaps, and improvement opportunities.
+- Verifying changes locally and documenting repeatable development and maintenance steps.
 
-**Status:** In development. The project is being prepared for clear public documentation. Production deployment and features that have not been verified are not claimed here.
+**Status:** In development. Project-specific documentation will describe verified features, installation, configuration, test results, and known limitations.
 
-> The project repository will contain the detailed feature list, installation and configuration instructions, test results, known limitations, and security notes.
+## Technical areas
 
-## Practical work and current focus
+- **Systems and operations:** service troubleshooting, configuration, repeatable setup, and maintenance workflows.
+- **Automation:** PowerShell scripts for installation, updates, and development tasks.
+- **Monitoring:** mail-service monitoring and observability; evaluating tools such as Prometheus and Netdata.
+- **Application engineering:** SvelteKit, build troubleshooting, frontend/backend investigation, and test review.
+- **Engineering workflow:** Git, GitHub, phased changes, version comparison, and technical documentation.
 
-- **Automation:** PowerShell scripts for installation, updates, and repeatable development tasks.
-- **Application maintenance:** phased changes, troubleshooting, code review, and version comparisons.
-- **Testing and reliability:** local verification, test review, release-safety checks, and documenting known issues.
-- **Infrastructure:** learning system administration, networking fundamentals, mail services, monitoring, and observability.
-- **Engineering workflow:** Git and GitHub for version control, project history, and documentation.
+## How I approach technical work
 
-I'm also learning about monitoring tools such as **Prometheus** and **Netdata**. They are part of my learning and evaluation, not a claim that I have deployed them in production.
-
-## How I work
-
-- Break larger tasks into manageable phases.
-- Investigate the cause of an issue instead of merely hiding its symptoms.
-- Review changes and test them locally before calling them complete.
-- Automate repeatable work where it improves consistency and maintainability.
-- Document setup, configuration, verification steps, limitations, and follow-up work.
+- Break large changes into clear phases and keep a traceable history.
+- Investigate root causes rather than just working around visible symptoms.
+- Review and verify changes before considering a task complete.
+- Treat security, release safety, and maintainability as part of the work, not as last-minute extras.
+- Document how to configure, run, and validate a project so the work can be repeated by someone else.
 
 ## Portfolio
 
-My portfolio is being organized around practical projects rather than a list of technologies. Each published repository should explain what problem it addresses, what has actually been implemented, how to install and verify it, and what remains unfinished.
+This profile highlights practical engineering work rather than a checklist of technologies. Each project should make clear what problem it addresses, what has actually been implemented, how it can be installed and verified, and what remains to be done.
 
 ---
 
-<p align="center"><i>Learning infrastructure by building, troubleshooting, testing, and documenting real projects.</i></p>
+<p align="center"><i>Building, troubleshooting, automating, and improving practical IT systems.</i></p>
